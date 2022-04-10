@@ -1,0 +1,20 @@
+.mainBlock {
+    min-height: 100vh;
+    background-color: #de9eda;
+    padding: 100px 0;
+}
+
+.mainContainer{
+    padding: 50px 50px;
+}
+
+.text {
+    width: 300px;
+    background-color: #c2c1c1;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: #c2c1c1;
+}

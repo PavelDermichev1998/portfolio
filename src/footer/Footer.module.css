@@ -1,0 +1,33 @@
+.footerBlock {
+    min-height: 30vh;
+    background-color: #879f94;
+    padding: 20px 0;
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: #2fb76a;
+    margin-bottom: 25px;
+}
+
+.linksContainer{
+    background-color: #5d834e;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.link {
+    background-color: #030302;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
