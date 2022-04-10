@@ -6,14 +6,14 @@ export const Main = () => {
     return (
         <div className={style.mainBlock}>
             <div className={`${styleContainer.container} ${style.mainContainer}`}>
-            <div className={style.text}>
-                <span>Hi There</span>
-                <h1>I am Pavel Dermichev</h1>
-                <p>Frontend Developer.</p>
-            </div>
-            <div className={style.photo}>
+                <div className={style.text}>
+                    <span>Hi There</span>
+                    <h1>I am Pavel Dermichev</h1>
+                    <p>Frontend Developer.</p>
+                </div>
+                <div className={style.photo}>
 
-            </div>
+                </div>
             </div>
         </div>
     );

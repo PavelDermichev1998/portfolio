@@ -3,7 +3,6 @@ import style from './Skills.module.css';
 import styleContainer from '../common/styles/Container.module.css'
 import {Skill} from "./skill/Skill";
 
-
 export const Skills = () => {
     return (
         <div className={style.skillsBlock}>

@@ -11,7 +11,7 @@ export const Project = (props: ProjectPropsType) => {
         <div className={style.project}>
             <div className={style.imageContainer}>
                 <a className={style.button} href={''}>
-                        Watch
+                    Watch
                 </a>
             </div>
             <div className={style.projectTitle}>{props.title}</div>

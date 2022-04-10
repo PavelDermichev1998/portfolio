@@ -1,4 +1,4 @@
-.skill{
+.skill {
     width: 250px;
     background-color: #5794a9;
     display: flex;
@@ -13,8 +13,8 @@
     background-color: #154346;
 }
 
-.skillTitle{
-background-color: #2fb76a;
+.skillTitle {
+    background-color: #2fb76a;
 }
 
 .description {
