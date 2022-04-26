@@ -13,7 +13,7 @@ export const Contacts = () => {
                     <textarea className={style.textarea}>
                     </textarea>
                 </form>
-                <button className={style.button}>
+                <button type={'submit'} className={style.button}>
                     Send
                 </button>
             </div>

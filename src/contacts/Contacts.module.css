@@ -16,7 +16,7 @@
 }
 
 .form {
-    width: 280px;
+    width: 50%;
     min-height: 180px;
     background-color: #099aba;
     display: flex;
@@ -24,6 +24,12 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 912px){
+    .form {
+        width: 100%;
+    }
 }
 
 .input {

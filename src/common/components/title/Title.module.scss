@@ -1,0 +1,25 @@
+@import "/src/common/styles/sass/variables";
+
+.title {
+    background-color: #96659a;
+    margin: 0 0 20px;
+    position: relative;
+    & h2 {
+        font-family: 'Barlow', sans-serif;
+        font-size: 35px;
+        font-weight: 600;
+        color: $textColor;
+    }
+    &:after {
+        position: absolute;
+        content: '';
+        background: $textSecondColor;
+        width: 55px;
+        height: 1px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+}
+
+
+

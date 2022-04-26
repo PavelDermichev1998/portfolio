@@ -1,6 +1,6 @@
 .mainBlock {
     min-height: 100vh;
-    background-color: #de9eda;
+    background-color: #6e7fd1;
     padding: 100px 0;
 }
 
@@ -16,5 +16,5 @@
 .photo {
     width: 300px;
     height: 400px;
-    background-color: #c2c1c1;
+    background-color: #adad23;
 }
