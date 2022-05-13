@@ -1,14 +1,13 @@
 @import "/src/common/styles/sass/variables";
 
 .title {
-    background-color: #96659a;
     margin: 0 0 20px;
     position: relative;
     & h2 {
         font-family: 'Barlow', sans-serif;
         font-size: 35px;
         font-weight: 600;
-        color: $textColor;
+        color: $primaryColor;
     }
     &:after {
         position: absolute;
