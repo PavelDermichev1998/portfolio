@@ -4,6 +4,7 @@ import style from './Project.module.scss';
 type ProjectPropsType = {
     title: string
     description: string
+    linkProject: string
     style: {
         backgroundImage: string;
     }
@@ -13,7 +14,7 @@ export const Project = (props: ProjectPropsType) => {
     return (
         <div className={style.project}>
             <div className={style.imageContainer} style={props.style}>
-                <a className={style.button} href={''}>
+                <a className={style.button} href={props.linkProject} target="_blank">
                     Watch
                 </a>
             </div>

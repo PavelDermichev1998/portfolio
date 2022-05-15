@@ -5,51 +5,68 @@
     min-height: 100vh;
     background-color: $bgColor;
     padding: 100px 0;
-}
 
-.contactsContainer {
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 60vh;
-}
+    .contactsContainer {
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 60vh;
 
+        .form {
+            width: 50%;
+            min-height: 180px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
 
-.form {
-    width: 50%;
-    min-height: 180px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
+            .input {
+                height: 60px;
+                width: 100%;
+                margin-top: 5px;
+                border-radius: 5px;
+                padding: 25px;
+                @include text('Barlow',18px,400, 1.6, $textSecondColor);
+            }
 
-@media screen and (max-width: 912px){
-    .form {
-        width: 100%;
+            .textarea {
+                height: 180px;
+                width: 100%;
+                min-height: 150px;
+                margin-top: 5px;
+                border-radius: 5px;
+                padding: 19px 25px 25px 25px !important;
+                @include text('Barlow',18px,400, 1.6, $textSecondColor);
+            }
+        }
+        @media screen and (max-width: 912px){
+            .form {
+                width: 100%;
+            }
+        }
+        .button {
+            min-width: 170px;
+            min-height: 40px;
+            background-color: $primaryColor;
+            border-radius: 5px;
+            @include text('Barlow',18px,600, 1.6, $textColor);
+            -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+            transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+        }
+
+        .button:hover {
+            box-shadow: 0 0 40px 40px #ffffff inset;
+            color: black;
+        }
     }
 }
 
-.input {
-    height: 60px;
-    width: 100%;
-    margin-top: 5px;
-    border-radius: 5px;
-    padding: 25px;
-    @include text('Barlow',18px,400, 1.6, $textSecondColor);
-}
 
-.textarea {
-    height: 180px;
-    width: 100%;
-    min-height: 150px;
-    margin-top: 5px;
-    border-radius: 5px;
-    padding: 19px 25px 25px 25px !important;
-    @include text('Barlow',18px,400, 1.6, $textSecondColor);
-}
 
-.button {
-    min-width: 170px;
-    min-height: 40px;
-}
+
+
+
+
+
+
+

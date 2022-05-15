@@ -1,0 +1,21 @@
+@import "/src/common/styles/sass/variables";
+@import "/src/common/styles/sass/mixins";
+
+
+.nav {
+  margin-right: 10%;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+
+  & a {
+    text-decoration: none;
+    @include text('Barlow', 16px, 600, 1.6, $textColor);
+    -webkit-transition: color 300ms ease-in-out;
+    transition: color 300ms ease-in-out;
+  }
+
+  a:hover {
+    color: $primaryColor;
+  }
+}

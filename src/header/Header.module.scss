@@ -1,0 +1,12 @@
+@import "/src/common/styles/sass/variables";
+
+.header {
+    height: 10%;
+    background-color: $bgSecondColor;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}

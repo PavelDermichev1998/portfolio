@@ -1,24 +1,37 @@
 @import "/src/common/styles/sass/variables";
 
 .title {
-    margin: 0 0 20px;
-    position: relative;
-    & h2 {
-        font-family: 'Barlow', sans-serif;
-        font-size: 35px;
-        font-weight: 600;
-        color: $primaryColor;
-    }
-    &:after {
-        position: absolute;
-        content: '';
-        background: $textSecondColor;
-        width: 55px;
-        height: 1px;
-        left: 50%;
-        transform: translate(-50%, 50%);
-    }
+  margin: 0 0 20px;
+  position: relative;
+
+  & h2 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: $primaryColor;
+    transition: color 300ms ease-in-out;
+  }
+
+  &:after {
+    position: absolute;
+    content: '';
+    background: $primaryColor;
+    width: 0;
+    height: 2px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    transition: width 300ms ease-in-out;
+  }
+
+  & :hover {
+    color: $textColor;
+  }
+
+  &:hover:after {
+    width: 100%;
+  }
 }
+
 
 
 
