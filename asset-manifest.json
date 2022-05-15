@@ -1,15 +1,33 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c2921bbd.css",
-    "main.js": "/portfolio/static/js/main.cd933e9a.js",
+    "main.css": "/portfolio/static/css/main.91dd8fda.css",
+    "main.js": "/portfolio/static/js/main.17923bf2.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/my photo.jpg": "/portfolio/static/media/my photo.cdcc57618393369e572a.jpg",
+    "static/media/social-network-background-with-icons_23-2147497535.jpg": "/portfolio/static/media/social-network-background-with-icons_23-2147497535.5eb68144f8e3f7af56c5.jpg",
+    "static/media/todolistt_700x455.jpg": "/portfolio/static/media/todolistt_700x455.36a762548bfffaad9ca7.jpg",
+    "static/media/js.png": "/portfolio/static/media/js.ca691704283b1badf98c.png",
+    "static/media/storybook.jpg": "/portfolio/static/media/storybook.e09e8aa6a958e23a0dea.jpg",
+    "static/media/sass.png": "/portfolio/static/media/sass.a88006fbbc6651c1bee0.png",
+    "static/media/formik.png": "/portfolio/static/media/formik.95443f3a820d21784c67.png",
+    "static/media/react-446.svg": "/portfolio/static/media/react-446.add74742e9e8f8827f7fa666dca760db.svg",
+    "static/media/axios.svg": "/portfolio/static/media/axios.bd6acdab1cd728f25cb13396600a2fe4.svg",
+    "static/media/redux.svg": "/portfolio/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "static/media/typescript-2.svg": "/portfolio/static/media/typescript-2.22b4f22ec3ee32c08fb2c0a25682bb5b.svg",
+    "static/media/telegram.svg": "/portfolio/static/media/telegram.dc4811e1ce5805f8f1cf4e8e6a5ff21c.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.7e4a8376d16096a0a3df289229f65a1f.svg",
     "index.html": "/portfolio/index.html",
-    "main.c2921bbd.css.map": "/portfolio/static/css/main.c2921bbd.css.map",
-    "main.cd933e9a.js.map": "/portfolio/static/js/main.cd933e9a.js.map",
+    "static/media/linkedin-round.svg": "/portfolio/static/media/linkedin-round.4b432327ef8e166121050aaf4d1e875a.svg",
+    "static/media/instragram-round-icon-png-free-download.svg": "/portfolio/static/media/instragram-round-icon-png-free-download.26678d1f9a79290824df7785bc6dcc83.svg",
+    "static/media/css.svg": "/portfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html-1.svg": "/portfolio/static/media/html-1.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "static/media/material-ui-1.svg": "/portfolio/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
+    "main.91dd8fda.css.map": "/portfolio/static/css/main.91dd8fda.css.map",
+    "main.17923bf2.js.map": "/portfolio/static/js/main.17923bf2.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2921bbd.css",
-    "static/js/main.cd933e9a.js"
+    "static/css/main.91dd8fda.css",
+    "static/js/main.17923bf2.js"
   ]
 }
