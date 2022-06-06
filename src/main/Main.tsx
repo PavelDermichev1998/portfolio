@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
 import myPhoto from '../assets/image/my photo.jpg'
+import {Background} from "../BackgroundAnimated/Background";
 
 export const Main = () => {
     return (
@@ -24,6 +25,7 @@ export const Main = () => {
                     to consider project work and full-time employment.
                 </div>
             </div>
+            <Background/>
         </div>
     );
 }
