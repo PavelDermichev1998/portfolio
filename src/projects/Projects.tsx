@@ -5,6 +5,8 @@ import {Project} from "./project/Project";
 import {Title} from "../common/components/title/Title";
 import todolistImage from "../assets/image/todolistt_700x455.jpg"
 import socialNetworkImage from "../assets/image/social-network-background-with-icons_23-2147497535.jpg"
+import {FadeReveal} from "../App";
+
 
 export const Projects = () => {
     const socialNetworkImg = {
@@ -18,16 +20,18 @@ export const Projects = () => {
         <div className={style.projectsBlock} id = 'projects'>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title text={'My projects'}/>
-                <div className={style.projects}>
-                    <Project style={todolistImg}
-                             title={'Todo list'}
-                             linkProject={'https://github.com/PavelDermichev1998/todolist-ts-47-main'}
-                             description={'A project description is a high-level overview of why you are doing a project.'}/>
-                    <Project style={socialNetworkImg}
-                             title={'Social network'}
-                             linkProject={'https://github.com/PavelDermichev1998/social-network-ts-47'}
-                             description={' The document explains a project is objectives and its essential qualities.'}/>
-                </div>
+                <FadeReveal>
+                    <div className={style.projects}>
+                        <Project style={todolistImg}
+                                 title={'Todo list'}
+                                 linkProject={'https://github.com/PavelDermichev1998/todolist-ts-47-main'}
+                                 description={'A project description is a high-level overview of why you are doing a project.'}/>
+                        <Project style={socialNetworkImg}
+                                 title={'Social network'}
+                                 linkProject={'https://github.com/PavelDermichev1998/social-network-ts-47'}
+                                 description={' The document explains a project is objectives and its essential qualities.'}/>
+                    </div>
+                </FadeReveal>
             </div>
         </div>
     );

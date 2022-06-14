@@ -7,6 +7,8 @@ import {Projects} from "./projects/Projects";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
 
+export const FadeReveal = require('react-reveal/Fade');
+
 const App = () => {
     return (
         <div className="App">

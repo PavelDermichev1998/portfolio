@@ -1,4 +1,5 @@
 import React from 'react';
+import { FadeReveal } from '../../App';
 import style from './Skill.module.scss';
 
 type SkillPropsType = {
@@ -9,6 +10,7 @@ type SkillPropsType = {
 
 export const Skill = (props: SkillPropsType) => {
     return (
+        <FadeReveal left>
         <div className={style.skill}>
             <div className={style.icon}>
                 <img src={props.image} alt=""/>
@@ -18,5 +20,6 @@ export const Skill = (props: SkillPropsType) => {
                 {props.description}
             </span>
         </div>
+        </FadeReveal>
     );
 }
