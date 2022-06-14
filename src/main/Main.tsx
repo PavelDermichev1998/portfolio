@@ -3,24 +3,30 @@ import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
 import myPhoto from '../assets/image/my photo.jpg'
 import {Background} from "../BackgroundAnimated/Background";
-import { FadeReveal } from '../App';
 import ReactTypingEffect from 'react-typing-effect';
+import { Fade } from "react-awesome-reveal";
+
 
 export const Main = () => {
     return (
         <div className={style.mainBlock} id='home'>
             <div className={`${styleContainer.container} ${style.mainContainer}`}>
-                <FadeReveal cascade>
+                <Fade cascade={true} duration={700} triggerOnce>
                     <div className={style.text}>
                         <span>Hello I`m</span>
                         <h1>Pavel Dermichev</h1>
                         <ReactTypingEffect
                             text={["Front-End Developer."]}
+                            typingDelay={1000}
+                            speed={200}
+                            eraseSpeed={200}
                         />
                     </div>
+
                     <div className={style.photoBlock}>
                         <img src={myPhoto} alt="I am"/>
                     </div>
+
                     <div className={style.description}>
                         A diligent, cooperative and resolute Front-End developer with an experience in creating SPA
                         using React, Redux, Typescript, HTML, CSS, JS seeking a position in an IT position which will
@@ -31,7 +37,7 @@ export const Main = () => {
                         Ready
                         to consider project work and full-time employment.
                     </div>
-                </FadeReveal>
+                </Fade>
             </div>
             <Background/>
         </div>

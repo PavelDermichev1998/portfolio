@@ -5,7 +5,7 @@ import telegramImg from '../assets/image/telegram.svg'
 import gitHubImg from '../assets/image/github.svg'
 import linkedInImg from '../assets/image/linkedin-round.svg'
 import instagramImg from '../assets/image/instragram-round-icon-png-free-download.svg'
-import {FadeReveal} from "../App";
+import { Fade } from "react-awesome-reveal";
 
 
 export const Footer = () => {
@@ -13,11 +13,11 @@ export const Footer = () => {
     return (
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <FadeReveal top>
+                <Fade direction={'down'} triggerOnce>
                     <h4 className={style.title}>Pavel Dermichev</h4>
-                </FadeReveal>
+                </Fade>
                 <div className={style.linksContainer}>
-                    <FadeReveal>
+                    <Fade triggerOnce>
                         <div className={style.link}>
                             <a href='https://t.me/pavelDermichev'>
                                 <img src={telegramImg} alt=""/>
@@ -38,11 +38,11 @@ export const Footer = () => {
                                 <img src={instagramImg} alt=""/>
                             </a>
                         </div>
-                    </FadeReveal>
+                    </Fade>
                 </div>
-                <FadeReveal bottom>
+                <Fade direction={'up'} triggerOnce>
                     <p> © 2022 All Rights Reserved</p>
-                </FadeReveal>
+                </Fade>
             </div>
         </div>
     );

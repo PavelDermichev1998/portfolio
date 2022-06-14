@@ -15,7 +15,7 @@ import javascriptImg from '../assets/image/js.png'
 import typescriptImg from '../assets/image/typescript-2.svg'
 import reactImg from '../assets/image/react-446.svg'
 import storybookImg from '../assets/image/storybook.jpg'
-import {FadeReveal} from "../App";
+import { Fade } from "react-awesome-reveal";
 
 
 export const Skills = () => {
@@ -24,7 +24,7 @@ export const Skills = () => {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title text={'My skills'}/>
                     <div className={style.skills}>
-                        <FadeReveal left>
+                        <Fade triggerOnce cascade={true} duration={500} direction={'down'}>
                         <Skill
                             image={htmlImg}
                             title={'HTML'}
@@ -73,7 +73,7 @@ export const Skills = () => {
                             image={gitImg}
                             title={'Git'}
                             description={''}/>
-                        </FadeReveal>
+                        </Fade>
                     </div>
             </div>
         </div>

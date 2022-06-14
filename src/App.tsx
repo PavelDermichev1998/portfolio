@@ -7,7 +7,7 @@ import {Projects} from "./projects/Projects";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
 
-export const FadeReveal = require('react-reveal/Fade');
+/*export const Tilt = require('react-tilt');*/
 
 const App = () => {
     return (
