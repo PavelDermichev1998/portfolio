@@ -4,6 +4,7 @@ import styleContainer from '../common/styles/Container.module.css'
 import myPhoto from '../assets/image/my photo.jpg'
 import {Background} from "../BackgroundAnimated/Background";
 import { FadeReveal } from '../App';
+import ReactTypingEffect from 'react-typing-effect';
 
 export const Main = () => {
     return (
@@ -13,7 +14,9 @@ export const Main = () => {
                     <div className={style.text}>
                         <span>Hello I`m</span>
                         <h1>Pavel Dermichev</h1>
-                        <p>Front-End Developer.</p>
+                        <ReactTypingEffect
+                            text={["Front-End Developer."]}
+                        />
                     </div>
                     <div className={style.photoBlock}>
                         <img src={myPhoto} alt="I am"/>
