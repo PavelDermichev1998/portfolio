@@ -4,9 +4,12 @@
     height: 10%;
     background-color: $bgSecondColor;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     width: 100vw;
     z-index: 3;
+    .nav_img {
+        height: 50px;
+    }
 }

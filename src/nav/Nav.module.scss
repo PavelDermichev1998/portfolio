@@ -9,6 +9,7 @@
   justify-content: space-between;
   cursor: pointer;
 
+
   & a {
     text-decoration: none;
     @include text('Barlow', 16px, 600, 1.6, $textColor);

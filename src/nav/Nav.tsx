@@ -7,6 +7,7 @@ export const Nav = () => {
     return (
         <div className={style.nav}>
             <Fade cascade direction={'down'} duration={600} triggerOnce>
+
                 <Link
                     activeClass={style.active}
                     to="home"

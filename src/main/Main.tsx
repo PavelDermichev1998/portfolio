@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
 import myPhoto from '../assets/image/my photo.jpg'
-import {Background} from "../BackgroundAnimated/Background";
+import {BackgroundAnimated} from "../BackgroundAnimated/BackgroundAnimated";
 import ReactTypingEffect from 'react-typing-effect';
 import {Fade} from "react-awesome-reveal";
 import Tilt from 'react-parallax-tilt';
@@ -39,7 +39,7 @@ export const Main = () => {
                     </div>
                 </Fade>
             </div>
-            <Background/>
+            <BackgroundAnimated/>
         </div>
     );
 }
