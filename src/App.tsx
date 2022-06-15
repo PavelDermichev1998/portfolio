@@ -7,8 +7,6 @@ import {Projects} from "./projects/Projects";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
 
-/*export const Tilt = require('react-tilt');*/
-
 const App = () => {
     return (
         <div className="App">

@@ -15,7 +15,7 @@ export const Project = (props: ProjectPropsType) => {
         <div className={style.project}>
             <div className={style.imageContainer} style={props.style}>
                 <a className={style.button} href={props.linkProject} target="_blank" rel="noreferrer">
-                    Watch
+                    Watch code
                 </a>
             </div>
             <div className={style.projectInfo}>

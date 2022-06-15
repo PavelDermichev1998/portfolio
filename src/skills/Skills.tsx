@@ -24,7 +24,7 @@ export const Skills = () => {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title text={'My skills'}/>
                     <div className={style.skills}>
-                        <Fade triggerOnce cascade={true} duration={500} direction={'down'}>
+                        <Fade triggerOnce cascade={true} duration={500}>
                         <Skill
                             image={htmlImg}
                             title={'HTML'}

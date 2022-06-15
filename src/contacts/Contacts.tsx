@@ -10,14 +10,14 @@ export const Contacts = () => {
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title text={'Contacts'}/>
                 <form className={style.form}>
-                    <Fade cascade={true} direction={'left'} triggerOnce duration={900}>
+                    <Fade cascade={true} triggerOnce duration={600} className={style.fadeForm}>
                         <input className={style.input} type="text" placeholder='Name'/>
                         <input className={style.input} type="email" placeholder='Email'/>
                         <textarea className={style.textarea} placeholder='Message'>
                     </textarea>
                     </Fade>
                 </form>
-                <Fade direction={'left'} triggerOnce duration={900}>
+                <Fade triggerOnce duration={900}>
                 <button type={'submit'} className={style.button}>
                     Send
                 </button>

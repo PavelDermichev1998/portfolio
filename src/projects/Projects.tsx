@@ -20,9 +20,8 @@ export const Projects = () => {
         <div className={style.projectsBlock} id='projects'>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title text={'My projects'}/>
-
                 <div className={style.projects}>
-                    <Fade triggerOnce>
+                    <Fade triggerOnce cascade={true} duration={600}>
                         <Project style={todolistImg}
                                  title={'Todo list'}
                                  linkProject={'https://github.com/PavelDermichev1998/todolist-ts-47-main'}

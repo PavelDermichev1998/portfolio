@@ -7,9 +7,7 @@ import linkedInImg from '../assets/image/linkedin-round.svg'
 import instagramImg from '../assets/image/instragram-round-icon-png-free-download.svg'
 import { Fade } from "react-awesome-reveal";
 
-
 export const Footer = () => {
-
     return (
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
@@ -19,22 +17,22 @@ export const Footer = () => {
                 <div className={style.linksContainer}>
                     <Fade triggerOnce>
                         <div className={style.link}>
-                            <a href='https://t.me/pavelDermichev'>
+                            <a href='https://t.me/pavelDermichev' target={'_blank'} rel="noreferrer">
                                 <img src={telegramImg} alt=""/>
                             </a>
                         </div>
                         <div className={style.link}>
-                            <a href='https://github.com/PavelDermichev1998'>
+                            <a href='https://github.com/PavelDermichev1998' target={'_blank'} rel="noreferrer">
                                 <img src={gitHubImg} alt=""/>
                             </a>
                         </div>
                         <div className={style.link}>
-                            <a href='https://www.linkedin.com/in/pavel-dermichev-2032a5208/'>
+                            <a href='https://www.linkedin.com/in/pavel-dermichev-2032a5208/' target={'_blank'} rel="noreferrer">
                                 <img src={linkedInImg} alt=""/>
                             </a>
                         </div>
                         <div className={style.link}>
-                            <a href='https://www.instagram.com/paveldskr/'>
+                            <a href='https://www.instagram.com/paveldskr/' target={'_blank'} rel="noreferrer">
                                 <img src={instagramImg} alt=""/>
                             </a>
                         </div>

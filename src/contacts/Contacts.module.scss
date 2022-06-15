@@ -42,9 +42,21 @@
         @media screen and (max-width: 912px){
             .form {
                 width: 100%;
+                .input {
+                    width: 90%;
+                }
+                .textarea {
+                    width: 90%;
+                }
+            }
+            .fadeForm{
+                width: 100vw;
+                display: flex;
+                justify-content: center;
             }
         }
         .button {
+            cursor: pointer;
             min-width: 170px;
             min-height: 40px;
             background-color: $primaryColor;
