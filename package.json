@@ -14,6 +14,7 @@
     "@types/react-scroll": "^1.8.3",
     "@types/react-typing-effect": "^2.0.3",
     "@types/reveal": "^4.2.0",
+    "axios": "^0.27.2",
     "gh-pages": "^3.2.3",
     "react": "^18.0.0",
     "react-awesome-reveal": "^3.8.1",

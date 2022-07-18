@@ -27,6 +27,7 @@
                 border-radius: 5px;
                 padding: 25px;
                 @include text('Barlow',18px,400, 1.6, $textSecondColor);
+                color: black;
             }
 
             .textarea {
@@ -37,6 +38,7 @@
                 border-radius: 5px;
                 padding: 19px 25px 25px 25px !important;
                 @include text('Barlow',18px,400, 1.6, $textSecondColor);
+                color: black;
             }
         }
         @media screen and (max-width: 912px){
@@ -69,6 +71,9 @@
         .button:hover {
             box-shadow: 0 0 40px 40px #ffffff inset;
             color: black;
+        }
+        .errorMessage {
+            color: #ff1a00;
         }
     }
 }
